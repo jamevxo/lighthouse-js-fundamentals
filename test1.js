@@ -215,14 +215,20 @@ function emotions(myString, myFunc) {
 
 // your code goes here
 // Call the emotions() function with two arguments
-emotions("happy", function(num) {
-  var sound = ''
-  for (i = 0; i < num; i++) {
-    sound = sound + 'ha'
-  }
-  sound = sound + '!'
-  return sound
-});
+  emotions("happy", function(num) {
+    var sound = ''
+    for (i = 0; i < num; i++) {
+      sound = sound + 'ha'
+    }
+    sound = sound + '!'
+    return sound
+  });
 
 // Argument 1 - "happy" string
 // Argument 2 - an inline function expression
+
+
+//
+function chooseStations (stations) {
+  
+}

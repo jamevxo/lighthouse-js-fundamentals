@@ -12,3 +12,5 @@ function whichSchool(age) {
   }
 }
 console.log(whichSchool(19))
+
+
